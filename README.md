@@ -1,4 +1,4 @@
-# Laporoscopic Augmented Reality
+# Laparoscopic Augmented Reality
 Hamlyn Winter School 2017 Project
 Based on ORB-SLAM2
 
