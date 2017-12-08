@@ -1,13 +1,17 @@
 # Laporoscopic Augmented Reality
 Hamlyn Winter School 2017 Project
 
+<img src="https://github.com/melights/Lap_AR/raw/master/tracking.png" alt="ORB-SLAM2" width="480" height="270" border="10" />
+<img src="https://github.com/melights/Lap_AR/raw/master/AR.png" alt="ORB-SLAM2" width="480" height="270" border="10" />
+
 Installation:
 
-1. Install the denpendency below (ORB_SLAM2 is included in this repo)
+1. Install the denpendencies below (ORB_SLAM2 is included in this repo)
 2. Run ./build.sh to build the project.
-3. Hit Lap_AR video_file in ./Example/Lap_AR/Lap_AR such as: ./Lap_AR my_video.avi
+3. Hit "Lap_AR video_file" in folder ./Example/Lap_AR/ such as: ./Lap_AR my_video.avi
+4. Start your AR journey!
 
-Dependency:
+Dependencies:
 
 ## Assimp
 For loading mesh data. https://github.com/assimp/assimp
