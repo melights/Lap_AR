@@ -1,13 +1,16 @@
-# Laporoscopic AUgmented Reality
+# Laporoscopic Augmented Reality
 Hamlyn Winter School 2017 Project
+
+Installation:
+
+1. Install the denpendency below (ORB_SLAM2 is included in this repo)
+2. Run ./build.sh to build the project.
+3. Hit Lap_AR video_file in ./Example/Lap_AR/Lap_AR such as: ./Lap_AR my_video.avi
 
 Dependency:
 
 ## Assimp
 For loading mesh data. https://github.com/assimp/assimp
-
-## ORB-SLAM2
-The Lap_AR is based on ORB_SLAM2. https://github.com/raulmur/ORB_SLAM2
 
 ## Pangolin
 For visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
@@ -15,9 +18,9 @@ For visualization and user interface. Dowload and install instructions can be fo
 ## OpenCV
 For loading videos. http://opencv.org. 
 
+# ORB-SLAM2 (included)
+The Lap_AR is based on ORB_SLAM2. Original Repo: https://github.com/raulmur/ORB_SLAM2
 
-
-# ORB-SLAM2
 **Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
 
 **13 Jan 2017**: OpenCV 3 and Eigen 3.3 are now supported.
